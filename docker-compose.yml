@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  web:
+    tty: true
+    container_name: parser-go
+    volumes:
+      - ./app:/go/src/app
+    build:
+      context: .
+      dockerfile: docker/go/Dockerfile

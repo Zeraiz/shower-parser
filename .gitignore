@@ -1,0 +1,7 @@
+/app/src/golang.org/
+/app/src/github.com/
+/app/pkg/
+/.env
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/go-parser.iml
